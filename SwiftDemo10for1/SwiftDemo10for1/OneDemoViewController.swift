@@ -144,4 +144,8 @@ class OneDemoViewController: UIViewController {
         
     }
 
+    @IBAction func goBack(sender: AnyObject) {
+        
+        self .dismissViewControllerAnimated(true, completion: nil)
+    }
 }
