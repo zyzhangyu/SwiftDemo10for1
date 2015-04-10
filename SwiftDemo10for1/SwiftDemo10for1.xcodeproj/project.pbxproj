@@ -13,6 +13,7 @@
 		228703451AD75C3B00F226D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228703441AD75C3B00F226D7 /* Images.xcassets */; };
 		228703481AD75C3B00F226D7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228703461AD75C3B00F226D7 /* LaunchScreen.xib */; };
 		228703541AD75C3B00F226D7 /* SwiftDemo10for1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228703531AD75C3B00F226D7 /* SwiftDemo10for1Tests.swift */; };
+		2287035F1AD75D0B00F226D7 /* OneDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2287035E1AD75D0B00F226D7 /* OneDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2287034D1AD75C3B00F226D7 /* SwiftDemo10for1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemo10for1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		228703521AD75C3B00F226D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		228703531AD75C3B00F226D7 /* SwiftDemo10for1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemo10for1Tests.swift; sourceTree = "<group>"; };
+		2287035E1AD75D0B00F226D7 /* OneDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		2287033A1AD75C3B00F226D7 /* SwiftDemo10for1 */ = {
 			isa = PBXGroup;
 			children = (
+				2287035D1AD75CEF00F226D7 /* Demo1按钮操作 */,
 				2287033D1AD75C3B00F226D7 /* AppDelegate.swift */,
 				2287033F1AD75C3B00F226D7 /* ViewController.swift */,
 				228703411AD75C3B00F226D7 /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				228703521AD75C3B00F226D7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2287035D1AD75CEF00F226D7 /* Demo1按钮操作 */ = {
+			isa = PBXGroup;
+			children = (
+				2287035E1AD75D0B00F226D7 /* OneDemoViewController.swift */,
+			);
+			name = "Demo1按钮操作";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				228703401AD75C3B00F226D7 /* ViewController.swift in Sources */,
 				2287033E1AD75C3B00F226D7 /* AppDelegate.swift in Sources */,
+				2287035F1AD75D0B00F226D7 /* OneDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
