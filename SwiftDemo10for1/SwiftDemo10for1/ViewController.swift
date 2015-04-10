@@ -25,6 +25,9 @@ class ViewController: UIViewController {
 
         println("进入demo1")
         
+        println("进入demo1")
+
+        
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewControllerWithIdentifier("IDENTIFIER") as! OneDemoViewController
         self.presentViewController(vc, animated: true, completion: nil)
