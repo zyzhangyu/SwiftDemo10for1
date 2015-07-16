@@ -21,6 +21,9 @@ Swift写的几个基础demo，将某马iOS培训班的基础demo用Swift重写�
 
 		一星半：
 			Swift_团购
+		
+		二颗星：
+			Swift_简版新浪微博(2015年7月16日 XCode6.4)
 
 运行环境：XCode 6.3.2
 最近更新：2015年6月30日
