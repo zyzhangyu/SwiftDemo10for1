@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>text</key>
+		<string>你好！我想应聘贵公司的网站建设</string>
+		<key>time</key>
+		<string>昨天 19:27</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>你好！</string>
+		<key>time</key>
+		<string>昨天 19:50</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>有项目经验吗？</string>
+		<key>time</key>
+		<string>昨天 19:53</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>有！我曾经做过全国最大的电子商务网站！</string>
+		<key>time</key>
+		<string>昨天 20:07</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>是吗？不错！日IP多少</string>
+		<key>time</key>
+		<string>昨天 20:07</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>一亿</string>
+		<key>time</key>
+		<string>昨天 20:07</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>厉害！日交易额多少？</string>
+		<key>time</key>
+		<string>昨天 20:11</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>十亿</string>
+		<key>time</key>
+		<string>昨天 20:15</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>非常不错！我们团队非常需要你这样的人才，网站叫什么？</string>
+		<key>time</key>
+		<string>昨天 20:15</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>12306！</string>
+		<key>time</key>
+		<string>昨天 20:17</string>
+		<key>type</key>
+		<integer>0</integer>
+	</dict>
+	<dict>
+		<key>text</key>
+		<string>滚！</string>
+		<key>time</key>
+		<string>昨天 20:18</string>
+		<key>type</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>

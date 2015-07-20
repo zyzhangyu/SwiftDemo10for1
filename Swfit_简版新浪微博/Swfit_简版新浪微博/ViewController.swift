@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Do any additional setup after loading the view, typically from a nib.
         
         // 为tableView注册可重用单元格
-//        zyTableView .registerClass(ZYTableViewCell.self , forCellReuseIdentifier: ID)
+        zyTableView .registerClass(ZYTableViewCell.self , forCellReuseIdentifier: ID)
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,7 +30,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
     
-    //MARK:
+    //MARK:aaa
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
