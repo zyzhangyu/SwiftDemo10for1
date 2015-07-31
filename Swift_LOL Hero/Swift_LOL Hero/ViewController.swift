@@ -29,12 +29,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.zyTableView.separatorStyle = .SingleLine
         self.zyTableView.separatorColor = .redColor()
         self.zyTableView.tableHeaderView = {
-            var view: UIView = UIView (frame: CGRectMake(0, 0, 320, 44))
+            let view: UIView = UIView (frame: CGRectMake(0, 0, 320, 44))
             view.backgroundColor = .yellowColor()
             return view
         }()
         self.zyTableView.tableFooterView = {
-            var view: UIView = UIView (frame: CGRectMake(0, 0, 320, 33))
+            let view: UIView = UIView (frame: CGRectMake(0, 0, 320, 33))
             view.backgroundColor = .blackColor()
             return view
         }()
@@ -56,12 +56,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let identifier: String = "Cell"
         
-        var cell :UITableViewCell? = tableView.dequeueReusableCellWithIdentifier(identifier) as? UITableViewCell
+        var cell :UITableViewCell? = tableView.dequeueReusableCellWithIdentifier(identifier)
         if (cell == nil){
             cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: identifier)
         }
         cell!.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
-        var row = indexPath.row
+        let row = indexPath.row
         let hero: ZYHero = ZYHero (zyDictionary: heros[row] as! NSDictionary)
         cell!.textLabel?.text = hero.name
         cell!.detailTextLabel?.text = hero.intro

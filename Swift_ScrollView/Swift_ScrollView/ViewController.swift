@@ -132,20 +132,20 @@ class ViewController: UIViewController,UIScrollViewDelegate {
     }
     
     // 2> 滚动视图即将开始缩放，通常不需要写
-    func scrollViewWillBeginZooming(scrollView: UIScrollView, withView view: UIView!) {
-        println(__FUNCTION__)
+    func scrollViewWillBeginZooming(scrollView: UIScrollView, withView view: UIView?) {
+        print(__FUNCTION__)
     }
     
     // 3> 正在缩放，通常也不需要实现
     func scrollViewDidZoom(scrollView: UIScrollView) {
-        println(__FUNCTION__)
+        print(__FUNCTION__)
         
-        println(NSStringFromCGAffineTransform(zyImageView.transform))
+        print(NSStringFromCGAffineTransform(zyImageView.transform))
         
      }
     
-    func scrollViewDidEndZooming(scrollView: UIScrollView, withView view: UIView!, atScale scale: CGFloat) {
-        println(__FUNCTION__)
+    func scrollViewDidEndZooming(scrollView: UIScrollView, withView view: UIView?, atScale scale: CGFloat) {
+        print(__FUNCTION__)
     }
     
     

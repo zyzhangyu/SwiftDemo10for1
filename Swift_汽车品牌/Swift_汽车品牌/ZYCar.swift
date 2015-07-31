@@ -17,7 +17,10 @@ class ZYCar: NSObject {
         
         super.init()
         
-        self .setValuesForKeysWithDictionary(dictionary as [NSObject : AnyObject])
+        self.name = dictionary["name"] as! String
+        self.icon = dictionary["icon"] as! String
+        
+        
     }
     
     class func carWithDict(dictionary: NSDictionary)->ZYCar{
@@ -27,7 +30,7 @@ class ZYCar: NSObject {
 
     class func carsWithArray(array: NSArray)->NSMutableArray{
     
-        var tempArray: NSMutableArray = NSMutableArray()
+        let tempArray: NSMutableArray = NSMutableArray()
         for object in array{
             tempArray .addObject(ZYCar .carWithDict(object as!NSDictionary))
         }

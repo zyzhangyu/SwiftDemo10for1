@@ -58,12 +58,12 @@ class ZYMessageFrame: NSObject {
             
             
             //3. 正文
-            var textSize = message!.text.boundingRectWithSize(CGSizeMake(150, maxF), options: NSStringDrawingOptions.UsesLineFragmentOrigin, attributes: [NSFontAttributeName:UIFont .systemFontOfSize(15)], context: nil).size
+            let textSize = message!.text.boundingRectWithSize(CGSizeMake(150, maxF), options: NSStringDrawingOptions.UsesLineFragmentOrigin, attributes: [NSFontAttributeName:UIFont .systemFontOfSize(15)], context: nil).size
             
-            var lastBtnSize = CGSizeMake(textSize.width + textPadding * 2, textSize.height + textPadding * 2)
+            let lastBtnSize = CGSizeMake(textSize.width + textPadding * 2, textSize.height + textPadding * 2)
             
             var textX: CGFloat = 0
-            var textY: CGFloat = iconY
+            let textY: CGFloat = iconY
             switch message!.type{
                 
             case .MessageModelGatsby:
@@ -75,8 +75,8 @@ class ZYMessageFrame: NSObject {
              textF = CGRectMake(textX, textY, lastBtnSize.width, lastBtnSize.height)
             
             //4.  cell的高度
-            var iconMaxY = CGRectGetMaxY(iconF)
-            var textMaxY = CGRectGetMaxY(textF)
+            let iconMaxY = CGRectGetMaxY(iconF)
+            let textMaxY = CGRectGetMaxY(textF)
             cellHeight = max(iconMaxY, textMaxY)
         }
     }

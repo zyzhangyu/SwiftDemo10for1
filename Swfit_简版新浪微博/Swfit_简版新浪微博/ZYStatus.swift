@@ -21,7 +21,18 @@ class ZYStatus: NSObject {
     init(dictionary: NSDictionary) {
         super.init()
         
-        self .setValuesForKeysWithDictionary(dictionary as [NSObject : AnyObject])
+        self.name = dictionary["name"] as! String
+        self.icon = dictionary["icon"] as! String
+        self.text = dictionary["text"] as! String
+
+
+        let array: Array = dictionary.allKeys 
+        if(array.count > 4){
+            self.picture = dictionary["picture"] as! String?
+
+        }
+        
+//        self .setValuesForKeysWithDictionary(dictionary as [NSObject : AnyObject])
         
         
     }

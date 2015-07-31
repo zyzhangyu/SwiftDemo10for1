@@ -19,7 +19,7 @@ import UIKit
     
         super.init()
         
-        self .setValuesForKeysWithDictionary(dictionary as [NSObject : AnyObject])
+        self .setValuesForKeysWithDictionary(dictionary as! [String : String])
     }
     
     

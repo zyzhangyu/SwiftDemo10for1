@@ -38,7 +38,7 @@ class StatusFrame: NSObject {
          
             
             //2. 姓名
-            var nameDict: [String : AnyObject!] = [NSFontAttributeName: UIFont(name: "Helvetica", size: 14.0)]
+            let nameDict: [String : AnyObject!] = [NSFontAttributeName: UIFont(name: "Helvetica", size: 14.0)]
             let maxF = CGFloat(MAXFLOAT)
             let nameSize = CGSizeMake(maxF, maxF)
             var nameFrame = status?.name.textRect(nameSize, attributes: nameDict)
@@ -56,7 +56,7 @@ class StatusFrame: NSObject {
             
             
             //4. 正文
-            var textDict: [String : AnyObject!] = [NSFontAttributeName: UIFont(name: "Helvetica", size: 16.0)]
+            let textDict: [String : AnyObject!] = [NSFontAttributeName: UIFont(name: "Helvetica", size: 16.0)]
             let textSize = CGSizeMake(300, maxF)
             var textFrame = status?.text.textRect(CGSizeMake(300, maxF), attributes: textDict)
             textFrame?.origin.x = padding
@@ -98,8 +98,8 @@ class StatusFrame: NSObject {
     class func statusFrames() -> (NSArray){
         
         
-        var array: NSArray = NSArray (contentsOfFile: NSBundle .mainBundle() .pathForResource("statuses", ofType: "plist")!)!
-        var arrayM: NSMutableArray = NSMutableArray ()
+        let array: NSArray = NSArray (contentsOfFile: NSBundle .mainBundle() .pathForResource("statuses", ofType: "plist")!)!
+        let arrayM: NSMutableArray = NSMutableArray ()
         for var index = 0 ;index < array.count; ++index{
             
             let dictionary: NSDictionary = array[index] as! NSDictionary

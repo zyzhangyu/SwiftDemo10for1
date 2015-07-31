@@ -165,6 +165,7 @@
 		22A78AF11B27C8A600D38C38 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = iOS_DevZhangYu;
 				TargetAttributes = {
@@ -421,6 +422,7 @@
 				22A78B1A1B27C8A600D38C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22A78B1B1B27C8A600D38C38 /* Build configuration list for PBXNativeTarget "Swift_汽车品牌Tests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +431,7 @@
 				22A78B1D1B27C8A600D38C38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -62,9 +62,9 @@ class ViewController: UIViewController, UITableViewDataSource{
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        var cell:UITableViewCell = UITableViewCell (style: .Default, reuseIdentifier: nil)
+        let cell:UITableViewCell = UITableViewCell (style: .Default, reuseIdentifier: nil)
         
-        var zyFruit: ZYFruit = dataList[indexPath.section] as! ZYFruit
+        let zyFruit: ZYFruit = dataList[indexPath.section] as! ZYFruit
         
         cell.textLabel?.text = zyFruit.fruit[indexPath.row] as? String
         

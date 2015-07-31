@@ -58,9 +58,9 @@ class ViewController: UIViewController,UIScrollViewDelegate {
          }
         
         
-        var array: NSArray = self.zyScrollView.subviews
+        let array: NSArray = self.zyScrollView.subviews
         array.enumerateObjectsUsingBlock({ object, index, stop in
-            var imageView = object as! UIImageView
+            let imageView = object as! UIImageView
             var frame: CGRect = imageView.frame
             frame.origin.x = CGFloat(index) * frame.size.width;
             imageView.frame = frame;
@@ -91,7 +91,7 @@ class ViewController: UIViewController,UIScrollViewDelegate {
     
     func pageChanged(pageControl:UIPageControl){
         
-        println("\(pageControl.currentPage)")
+        print("\(pageControl.currentPage)")
         
         let x:CGFloat = CGFloat(pageControl.currentPage) * self.zyScrollView.bounds.size.width
         self.zyScrollView .setContentOffset(CGPointMake(x, 0), animated: true)

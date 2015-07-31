@@ -44,7 +44,7 @@ class ZYTgCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
     }
@@ -54,7 +54,7 @@ class ZYTgCell: UITableViewCell {
     
     
     
-    class func cellWithTableView(#tableView: UITableView) -> ZYTgCell{
+    class func cellWithTableView(tableView tableView: UITableView) -> ZYTgCell{
         
         let id = "zyCell"
         

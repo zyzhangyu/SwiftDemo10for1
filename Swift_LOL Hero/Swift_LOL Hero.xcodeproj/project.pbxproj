@@ -162,6 +162,8 @@
 		22B3F9B61B267A4F007DA94B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = iOS_DevZhangYu;
 				TargetAttributes = {
@@ -417,6 +419,7 @@
 				22B3F9DF1B267A4F007DA94B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B3F9E01B267A4F007DA94B /* Build configuration list for PBXNativeTarget "Swift_LOL HeroTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +428,7 @@
 				22B3F9E21B267A4F007DA94B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

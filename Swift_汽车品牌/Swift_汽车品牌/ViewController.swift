@@ -52,7 +52,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     {
         let identifier: String = "Cell"
         
-        var cell: UITableViewCell? = tableView.dequeueReusableCellWithIdentifier(identifier) as? UITableViewCell
+        var cell: UITableViewCell? = tableView.dequeueReusableCellWithIdentifier(identifier)
         if(cell == nil){
         
             cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: identifier)
@@ -69,11 +69,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return group.title
     }
     
-    func sectionIndexTitlesForTableView(tableView: UITableView) -> [AnyObject]! {
+    
+    func sectionIndexTitlesForTableView(tableView: UITableView) -> [String]?  {
         let array: NSArray = carGroups .valueForKeyPath("cars.name") as! NSArray
-        println("%@",array)
+        print("%@",array)
         
-        return carGroups .valueForKeyPath("title")  as! [AnyObject]
+         return    carGroups .valueForKeyPath("title")  as? [String]
     }
 
 }

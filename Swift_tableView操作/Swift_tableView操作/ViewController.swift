@@ -51,8 +51,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
     {
         let identifier: String = "Cell"
-        var cell: UITableViewCell? = tableView.dequeueReusableCellWithIdentifier(identifier) as? UITableViewCell
-        
+        var cell: UITableViewCell? = tableView.dequeueReusableCellWithIdentifier(identifier)         
         if(cell == nil){
             cell = UITableViewCell (style: UITableViewCellStyle.Subtitle, reuseIdentifier: identifier)
         }

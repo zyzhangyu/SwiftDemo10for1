@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UITableViewController, UITableViewDelegate, UITableViewDataSource, ZYTgFootViewDelegate {
+class ViewController: UITableViewController, ZYTgFootViewDelegate {
 
     lazy var tgs: NSMutableArray = ZYTgModal .tgs()
     
@@ -28,6 +28,7 @@ class ViewController: UITableViewController, UITableViewDelegate, UITableViewDat
         
         
         let footView = ZYTgFooterView .footView()
+        footView.frame = CGRectMake(0, self.view.bounds.size.height - 44, self.view.bounds.size.width, 44)
         footView.delegate = self
         self.tableView.tableFooterView = footView
     }
@@ -42,13 +43,12 @@ class ViewController: UITableViewController, UITableViewDelegate, UITableViewDat
         return tgs.count
     }
     
- 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
         
-        var zyTableViewCell: ZYTgCell = ZYTgCell .cellWithTableView(tableView: tableView)
+        let zyTableViewCell: ZYTgCell = ZYTgCell .cellWithTableView(tableView: tableView)
         
-        print(tgs[indexPath.row])
+        print(tgs[indexPath.row], appendNewline: false)
         
  
         zyTableViewCell.tg = tgs[indexPath.row] as! ZYTgModal
@@ -58,7 +58,7 @@ class ViewController: UITableViewController, UITableViewDelegate, UITableViewDat
     
     func tgFooterViewDidDownloadButtonClick(footview : ZYTgFooterView) -> () {
     
-        println("努力加载数据中...")
+        print("努力加载数据中...")
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (Int64)(2 * NSEC_PER_SEC)), dispatch_get_main_queue()){
             let dictionary: [String : String] = ["title":"哈哈","icon": "ad_00", "price": "100.2", "buyCount": "250"]
             let tg: ZYTgModal = ZYTgModal .tgWithDict(dictionary)

@@ -19,7 +19,7 @@ class ZYHero: NSObject {
         
         super.init()
 
-        self .setValuesForKeysWithDictionary(zyDictionary as [NSObject : AnyObject])
+        self .setValuesForKeysWithDictionary(zyDictionary as! [String : String])
      
     }
     
@@ -28,9 +28,9 @@ class ZYHero: NSObject {
         
         let array: NSArray = NSArray (contentsOfFile: NSBundle .mainBundle() .pathForResource("heros.plist", ofType: nil)!)!
         
-        println("打印英雄数组: %@",array)
+        print("打印英雄数组: %@",array)
         
-        var arrayM: NSMutableArray = NSMutableArray ()
+        let arrayM: NSMutableArray = NSMutableArray ()
         
         for object in array{
             

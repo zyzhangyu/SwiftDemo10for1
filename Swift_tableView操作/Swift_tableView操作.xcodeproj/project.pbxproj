@@ -156,6 +156,7 @@
 		22F16B8E1B2E6AF30019EC13 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = iOS_DevZhangYu;
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				22F16BB71B2E6AF30019EC13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22F16BB81B2E6AF30019EC13 /* Build configuration list for PBXNativeTarget "Swift_tableView操作Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				22F16BBA1B2E6AF30019EC13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

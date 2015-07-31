@@ -79,7 +79,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func keyboardWillChange(noti: NSNotification) ->(){
         
-        println("~~~~~~~~~~\(noti)")
+        print("~~~~~~~~~~\(noti)")
         
         self.view.window?.backgroundColor = self.zyTableView.backgroundColor
         
@@ -136,17 +136,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
  
     func addMessage(text: NSString, type:MessageModelType) ->(){
     
-        var message = ZYMessage()
+        let message = ZYMessage()
         message.text = text
         
-        var date: NSDate = NSDate()
-        var dateFormatter: NSDateFormatter = NSDateFormatter()
+        let date: NSDate = NSDate()
+        let dateFormatter: NSDateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "HH:mm"
         
         message.time = dateFormatter .stringFromDate(date)
         message.type = type
         
-        var lastMessageFrame = ZYMessageFrame()
+        let lastMessageFrame = ZYMessageFrame()
         lastMessageFrame.message = message
         
         
@@ -162,7 +162,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         
         //1. 添加新的对话到数据模型
-        self .addMessage(textField.text, type: MessageModelType.MessageModelGatsby)
+        self .addMessage(textField.text!, type: MessageModelType.MessageModelGatsby)
         
         //2. 自动回复
         self .addMessage(self.autoPlayMessage(), type: MessageModelType.MessageModelJobs)
