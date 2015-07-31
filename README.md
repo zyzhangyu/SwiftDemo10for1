@@ -20,7 +20,8 @@ Swift写的几个基础demo，将某马iOS培训班的基础demo用Swift重写�
 			Swift_tableView操作
 
 		一星半：
-			Swift_团购
+			Swift_团购（2015年7月31日）
+			Swift_QQ好友列表
 	
 		二颗星：
 			Swift_简版新浪微博(2015年7月16日)
