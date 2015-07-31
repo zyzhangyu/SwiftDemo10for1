@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222AB14D1B6B12900073D5F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AB14C1B6B12900073D5F9 /* AppDelegate.swift */; };
+		222AB14F1B6B12900073D5F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AB14E1B6B12900073D5F9 /* ViewController.swift */; };
+		222AB1521B6B12900073D5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222AB1501B6B12900073D5F9 /* Main.storyboard */; };
+		222AB1541B6B12900073D5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222AB1531B6B12900073D5F9 /* Assets.xcassets */; };
+		222AB1571B6B12900073D5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222AB1551B6B12900073D5F9 /* LaunchScreen.storyboard */; };
+		222AB15F1B6B18660073D5F9 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 222AB15E1B6B18660073D5F9 /* friends.plist */; };
+		222AB1611B6B18C20073D5F9 /* ZYHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AB1601B6B18C20073D5F9 /* ZYHeaderView.swift */; };
+		222AB1681B6B3A910073D5F9 /* Frined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AB1671B6B3A910073D5F9 /* Frined.swift */; };
+		222AB16A1B6B40B10073D5F9 /* FriendGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AB1691B6B40B10073D5F9 /* FriendGroup.swift */; };
+		222AB16E1B6B44840073D5F9 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222AB16D1B6B44840073D5F9 /* FriendCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222AB1491B6B12900073D5F9 /* Swift_QQ好友列表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift_QQ好友列表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		222AB14C1B6B12900073D5F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		222AB14E1B6B12900073D5F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		222AB1511B6B12900073D5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		222AB1531B6B12900073D5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		222AB1561B6B12900073D5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		222AB1581B6B12900073D5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222AB15E1B6B18660073D5F9 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		222AB1601B6B18C20073D5F9 /* ZYHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYHeaderView.swift; sourceTree = "<group>"; };
+		222AB1671B6B3A910073D5F9 /* Frined.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frined.swift; sourceTree = "<group>"; };
+		222AB1691B6B40B10073D5F9 /* FriendGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendGroup.swift; sourceTree = "<group>"; };
+		222AB16D1B6B44840073D5F9 /* FriendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		222AB1461B6B12900073D5F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222AB1401B6B12900073D5F9 = {
+			isa = PBXGroup;
+			children = (
+				222AB14B1B6B12900073D5F9 /* Swift_QQ好友列表 */,
+				222AB14A1B6B12900073D5F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		222AB14A1B6B12900073D5F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				222AB1491B6B12900073D5F9 /* Swift_QQ好友列表.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		222AB14B1B6B12900073D5F9 /* Swift_QQ好友列表 */ = {
+			isa = PBXGroup;
+			children = (
+				222AB14C1B6B12900073D5F9 /* AppDelegate.swift */,
+				222AB14E1B6B12900073D5F9 /* ViewController.swift */,
+				222AB1601B6B18C20073D5F9 /* ZYHeaderView.swift */,
+				222AB16D1B6B44840073D5F9 /* FriendCell.swift */,
+				222AB1621B6B393E0073D5F9 /* Model */,
+				222AB1501B6B12900073D5F9 /* Main.storyboard */,
+				222AB1531B6B12900073D5F9 /* Assets.xcassets */,
+				222AB1551B6B12900073D5F9 /* LaunchScreen.storyboard */,
+				222AB15E1B6B18660073D5F9 /* friends.plist */,
+				222AB1581B6B12900073D5F9 /* Info.plist */,
+			);
+			path = "Swift_QQ好友列表";
+			sourceTree = "<group>";
+		};
+		222AB1621B6B393E0073D5F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				222AB1671B6B3A910073D5F9 /* Frined.swift */,
+				222AB1691B6B40B10073D5F9 /* FriendGroup.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222AB1481B6B12900073D5F9 /* Swift_QQ好友列表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 222AB15B1B6B12900073D5F9 /* Build configuration list for PBXNativeTarget "Swift_QQ好友列表" */;
+			buildPhases = (
+				222AB1451B6B12900073D5F9 /* Sources */,
+				222AB1461B6B12900073D5F9 /* Frameworks */,
+				222AB1471B6B12900073D5F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift_QQ好友列表";
+			productName = "Swift_QQ好友列表";
+			productReference = 222AB1491B6B12900073D5F9 /* Swift_QQ好友列表.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		222AB1411B6B12900073D5F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = iOS_DevZhangYu;
+				TargetAttributes = {
+					222AB1481B6B12900073D5F9 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 222AB1441B6B12900073D5F9 /* Build configuration list for PBXProject "Swift_QQ好友列表" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 222AB1401B6B12900073D5F9;
+			productRefGroup = 222AB14A1B6B12900073D5F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222AB1481B6B12900073D5F9 /* Swift_QQ好友列表 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		222AB1471B6B12900073D5F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222AB1571B6B12900073D5F9 /* LaunchScreen.storyboard in Resources */,
+				222AB1541B6B12900073D5F9 /* Assets.xcassets in Resources */,
+				222AB15F1B6B18660073D5F9 /* friends.plist in Resources */,
+				222AB1521B6B12900073D5F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		222AB1451B6B12900073D5F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				222AB14F1B6B12900073D5F9 /* ViewController.swift in Sources */,
+				222AB16E1B6B44840073D5F9 /* FriendCell.swift in Sources */,
+				222AB1611B6B18C20073D5F9 /* ZYHeaderView.swift in Sources */,
+				222AB16A1B6B40B10073D5F9 /* FriendGroup.swift in Sources */,
+				222AB14D1B6B12900073D5F9 /* AppDelegate.swift in Sources */,
+				222AB1681B6B3A910073D5F9 /* Frined.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		222AB1501B6B12900073D5F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222AB1511B6B12900073D5F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		222AB1551B6B12900073D5F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222AB1561B6B12900073D5F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		222AB1591B6B12900073D5F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		222AB15A1B6B12900073D5F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		222AB15C1B6B12900073D5F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift_QQ好友列表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZY.Swift-QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		222AB15D1B6B12900073D5F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift_QQ好友列表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ZY.Swift-QQ----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		222AB1441B6B12900073D5F9 /* Build configuration list for PBXProject "Swift_QQ好友列表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222AB1591B6B12900073D5F9 /* Debug */,
+				222AB15A1B6B12900073D5F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		222AB15B1B6B12900073D5F9 /* Build configuration list for PBXNativeTarget "Swift_QQ好友列表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				222AB15C1B6B12900073D5F9 /* Debug */,
+				222AB15D1B6B12900073D5F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 222AB1411B6B12900073D5F9 /* Project object */;
+}
