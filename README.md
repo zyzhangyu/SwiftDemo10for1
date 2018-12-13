@@ -2,7 +2,7 @@
 
 
 目前里面共有10个demo，均比较简单！
-Swift写的几个基础demo，将某马iOS培训班的基础demo用Swift重写而成！
+Swift写的几个基础demo！
 
 
 
